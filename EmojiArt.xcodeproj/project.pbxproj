@@ -62,8 +62,8 @@
 		ED3095CC22B9FE2500E1065C /* EmojiArt */ = {
 			isa = PBXGroup;
 			children = (
-				ED4CD93B22BB0AB4000AA2B6 /* EmojiCollectionViewCell.swift */,
 				ED3095D122B9FE2500E1065C /* Main.storyboard */,
+				ED4CD93B22BB0AB4000AA2B6 /* EmojiCollectionViewCell.swift */,
 				EDEC23F322BA0D1D0029C2E7 /* EmojiArtDocumentTableViewController.swift */,
 				ED3095E222B9FEEA00E1065C /* EmojiArtView.swift */,
 				ED3095E022B9FE7900E1065C /* EmojiArtViewController.swift */,

@@ -132,6 +132,34 @@
                                             <outlet property="label" destination="ssB-mo-0xh" id="fCX-Pl-DBB"/>
                                         </connections>
                                     </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DropPlaceholderCell" id="1Mo-kU-bvr" customClass="EmojiCollectionViewCell" customModule="EmojiArt" customModuleProvider="target">
+                                        <rect key="frame" x="90" y="0.0" width="80" height="80"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmb-Nc-I0P">
+                                                    <rect key="frame" x="40" y="40" width="0.0" height="0.0"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="uwh-7J-l02">
+                                                    <rect key="frame" x="30" y="30" width="20" height="20"/>
+                                                </activityIndicatorView>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="hmb-Nc-I0P" firstAttribute="centerY" secondItem="1Mo-kU-bvr" secondAttribute="centerY" id="8p4-Ba-xWi"/>
+                                            <constraint firstItem="hmb-Nc-I0P" firstAttribute="centerX" secondItem="1Mo-kU-bvr" secondAttribute="centerX" id="We5-Gq-YxU"/>
+                                            <constraint firstItem="uwh-7J-l02" firstAttribute="centerY" secondItem="1Mo-kU-bvr" secondAttribute="centerY" id="ZCt-qZ-lqF"/>
+                                            <constraint firstItem="uwh-7J-l02" firstAttribute="centerX" secondItem="1Mo-kU-bvr" secondAttribute="centerX" id="oSz-rd-QzY"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="label" destination="hmb-Nc-I0P" id="FCm-af-tR8"/>
+                                        </connections>
+                                    </collectionViewCell>
                                 </cells>
                             </collectionView>
                         </subviews>
